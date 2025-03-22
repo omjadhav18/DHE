@@ -47,7 +47,7 @@ app.use(express.urlencoded({ extended: true }))
 app.use(express.static(path.join(__dirname, '..', 'dist')));
 app.use(cors())
 
-mongoose.connect(`mongodb+srv://dhruvmehta2004:0Tb9LfHuX0jTPQsW@cluster0.bmpyuvt.mongodb.net/HEALIS`, {
+mongoose.connect(`mongoDBURL`, {
     useNewUrlParser: true,
     useUnifiedTopology: true
 })

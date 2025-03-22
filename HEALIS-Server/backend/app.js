@@ -11,8 +11,8 @@ const fs = require('fs');
 const app = express();
 
 // Constants
-const JWT_SECRET = process.env.JWT_SECRET || 'healis-secret-key';
-const MONGODB_URI = process.env.MONGODB_URI || 'mongodb+srv://dhruvmehta2004:0Tb9LfHuX0jTPQsW@cluster0.bmpyuvt.mongodb.net/HEALIS-ADMIN';
+const JWT_SECRET = process.env.JWT_SECRET || 'YOUR SECRET KEY';
+const MONGODB_URI = process.env.MONGODB_URI || 'YOUR MongoDB URL';
 const PORT = process.env.PORT || 8000;
 
 // Middleware
